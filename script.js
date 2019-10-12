@@ -30,11 +30,18 @@ $(document).ready(function() {
         $(".row").append(makeEventButton);
         console.log("making buttons");
 
-        $(".event-button").on("click", function(event) {
+        $(".event-button").on("click", function() {
             var buttonTime = $(".event-button").attr("value");
             event.preventDefault();
             var eventStorage = $("#eventInput").val().trim();
-            localStorage.setItem("", eventStorage);
+            localStorage.setItem(i = [0], eventStorage);
+        });
+
+        $(".event-button").on("click", function() {
+            var buttonTime = $(".event-button").attr("value");
+            event.preventDefault();
+            var eventStorage = $("#eventInput").val().trim();
+            localStorage.setItem(i = [1], eventStorage);
         });
 
     
